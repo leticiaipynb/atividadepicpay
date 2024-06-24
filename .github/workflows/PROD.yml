@@ -27,7 +27,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
     - name: Teste
-      run: coverage run -m data_teste
+      run: coverage run -m jogoBatalha_teste
 
     - name: Relatório
       run: coverage report
