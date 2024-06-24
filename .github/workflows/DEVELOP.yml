@@ -27,7 +27,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
     - name: Log
-      run: echo "DEV-1.${{github.run_numbe}}"
+      run: echo "DEV-1.${{github.run_number}}"
     # - name: Git Version
     #   id: vers
     #   uses: codacy/git-version@2.4.0
